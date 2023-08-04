@@ -3,7 +3,7 @@ import pandas as pd
 
 def main():
     try:
-        df = pd.read_csv(r"C:\Users\Besitzer\Desktop\Einkommen kaggle\movies.csv")
+        df = pd.read_csv(r"https://raw.githubusercontent.com/tobiarnold/Movie_Recommendation/main/movies.csv")
         st.set_page_config(page_title="Movie Recommendation", page_icon="🎬", layout="wide")
         streamlit_style = """
             <style>
@@ -13,7 +13,7 @@ def main():
                                             position: fixed;}
             [data-testid="stHeader"] {background: rgba(0,0,0,0);}
             .stApp {
-                background-image: url("https://img.freepik.com/free-vector/red-movie-theater-seats-with-curtains-background_1017-38388.jpg");
+                background-image: url("https://raw.githubusercontent.com/tobiarnold/Movie_Recommendation/main/sl_121019_25870_69.jpg");
                 background-attachment: fixed;
                 background-size: cover;}
              .title-wrapper {
@@ -58,4 +58,5 @@ def main():
             st.text("Please choose other parameters!")
     except:
         st.text("Please reload Webpage!")
+
 main()
