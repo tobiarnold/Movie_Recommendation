@@ -49,9 +49,9 @@ def main():
                 df = df[df["genres"].str.contains(genre, case=False)]
                 df = df[(df["vote_average"] >= rating[0]) & (df["vote_average"] <= rating[1])]
                 df = df[(df["release_date"] >= year[0]) & (df["release_date"] <= year[1])]
+                df_title=df.sample(n=1)
         try:
             st.text("on mobile devices, please double-click the table column to view the full text")
-            df_title=df.sample(n=1)
             st.dataframe(df_title["title"])
         except:
             st.text("Please choose other parameters!")
