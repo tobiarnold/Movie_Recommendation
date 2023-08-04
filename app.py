@@ -55,7 +55,7 @@ def main():
             df_table=df_title.drop("title", axis=1)
             st.dataframe(df_table)
         except:
-            st.text("Please choose other parameters!")
+            st.text("press button to generate random movie recommendations")
     except:
         st.text("Please reload Webpage!")
 
