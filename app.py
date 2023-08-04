@@ -63,5 +63,4 @@ def main():
             st.text("press button to generate random movie recommendations")
     except:
         st.text("Please reload Webpage!")
-
 main()
