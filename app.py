@@ -51,6 +51,7 @@ def main():
                 df_title = df.sample(n=1)
         try:
             with col2:
+                text_title=df_title["title"]
                 st.text(df_title["title"].iloc[0])
             df_table=df_title.drop("title", axis=1)
             st.dataframe(df_table)
