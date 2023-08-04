@@ -45,6 +45,7 @@ def main():
         col1, col2, col3 = st.columns(3)
         with col2:
             if st.button("Generate Random Movie"):
+                df = df.set_index(df.columns[0])
                 df = df[df["genres"].str.contains(genre, case=False)]
                 df = df[(df["vote_average"] >= rating[0]) & (df["vote_average"] <= rating[1])]
                 df = df[(df["release_date"] >= year[0]) & (df["release_date"] <= year[1])]
