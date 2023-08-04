@@ -50,7 +50,7 @@ def main():
                 df = df[(df["release_date"] >= year[0]) & (df["release_date"] <= year[1])]
         try:
             st.text("on mobile devices, please double-click the table column to view the full text")
-            st.dataframe(df.sample(n=1))
+            st.write(df.sample(n=1))
         except:
             st.text("Please choose other parameters!")
     except:
