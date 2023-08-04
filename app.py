@@ -49,7 +49,7 @@ def main():
                 df = df[(df["vote_average"] >= rating[0]) & (df["vote_average"] <= rating[1])]
                 df = df[(df["release_date"] >= year[0]) & (df["release_date"] <= year[1])]
         try:
-            st.table(df.sample(n=1))
+            st.dataframe(df.sample(n=1))
         except:
             st.text("Please choose other parameters!")
     except:
