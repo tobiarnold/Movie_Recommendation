@@ -33,6 +33,7 @@ def main():
                 .css-5rimss.e1nzilvr4 {color: white;}
                 .css-5rimss.e1nzilvr5 {color: white;}
                 .css-183lzff exotz4b0 {color: white;}
+                .element-container.css-1su3asq.e1f1d6gn2 {color: white;}
                </style>
            """
         st.markdown(streamlit_style, unsafe_allow_html=True)
