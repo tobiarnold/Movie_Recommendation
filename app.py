@@ -26,14 +26,7 @@ def main():
                [data-testid="stText"] {font-size: 18px}
                 .css-7ym5gk.ef3psqc11 button {font-weight: bold;}
                 .css-1vbkxwb.e1nzilvr4 p {font-size: 22px;color: blue; }
-                .css-165ax5l.e1q9reml3 {color: white;}
-                .css-16idsys.e1nzilvr5 {color: white;
-                .css-a51556.e1q9reml1 {color: white;}
-                .css-y4bq5x.ewgb6651 {color: white;}
-                .css-5rimss.e1nzilvr4 {color: white;}
-                .css-5rimss.e1nzilvr5 {color: white;}
-                .css-183lzff exotz4b0 {color: white;}
-                .element-container.css-1su3asq.e1f1d6gn2 {color: white;}
+                
                </style>
            """
         st.markdown(streamlit_style, unsafe_allow_html=True)
