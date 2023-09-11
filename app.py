@@ -32,6 +32,7 @@ def main():
                 .css-y4bq5x.ewgb6651 {color: white;}
                 .css-5rimss.e1nzilvr4 {color: white;}
                 .css-5rimss.e1nzilvr5 {color: white;}
+                .css-183lzff exotz4b0 {color: white;}
                </style>
            """
         st.markdown(streamlit_style, unsafe_allow_html=True)
