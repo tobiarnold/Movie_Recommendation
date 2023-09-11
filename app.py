@@ -27,7 +27,7 @@ def main():
                 .css-7ym5gk.ef3psqc11 button {font-weight: bold;}
                 .css-1vbkxwb.e1nzilvr4 p {font-size: 22px;color: blue;}
                 .css-16idsys.e1nzilvr5 {color: white;}
-                .css-y4bq5x ewgb6651 {color: white;}
+                .css-183lzff.exotz4b0 {color: white;}
                </style>
            """
         st.markdown(streamlit_style, unsafe_allow_html=True)
