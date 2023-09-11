@@ -25,8 +25,8 @@ def main():
                [data-testid="stTickBarMax"] {color: white;}
                [data-testid="stText"] {font-size: 18px}
                 .css-7ym5gk.ef3psqc11 button {font-weight: bold;}
-                .css-1vbkxwb.e1nzilvr4 p {font-size: 22px;color: blue; }
-                
+                .css-1vbkxwb.e1nzilvr4 p {font-size: 22px;color: blue;}
+                 .css-16idsys.e1nzilvr5 {color: white;}
                </style>
            """
         st.markdown(streamlit_style, unsafe_allow_html=True)
