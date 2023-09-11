@@ -28,7 +28,7 @@ def main():
                 .css-1vbkxwb.e1nzilvr4 p {font-size: 22px;color: blue;}
                 .css-16idsys.e1nzilvr5 {color: white;}
                 .css-183lzff.exotz4b0 {color: white;}
-                .css-5rimss e1nzilvr5 {color: white;}
+                .css-5rimss.e1nzilvr5 {color: white;}
                </style>
            """
         st.markdown(streamlit_style, unsafe_allow_html=True)
